@@ -4,7 +4,6 @@ import { BrowserRouter, Route } from "react-router-dom"
 import Header from './Header'
 import Footer from './Footer'
 import Routes from '../routes/Routes'
-import PropTypes from 'prop-types'
 
 const Layout = () => {
     return (
