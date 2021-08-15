@@ -1,15 +1,21 @@
-import PropTypes from 'prop-types'
+import Helmet from "../components/Helmet"
+import HeroSlider from "../components/HeroSlider"
+import heroSliderData from '../assets/fake-data/hero-slider'
 
-const Home = props => {
+const Home = () => {
     return (
-        <div>
-            Home
-        </div>
+        <Helmet title="Trang chủ">
+            {/* hero slider */}
+            <HeroSlider
+                data={heroSliderData}
+                control={true}
+                auto={true}
+                timeOut={5000}
+            />
+            {/* end hero slider */}
+        </Helmet>
     )
 }
 
-Home.propTypes = {
-
-}
 
 export default Home
