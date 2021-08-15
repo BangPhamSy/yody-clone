@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 
 const Grid = props => {
     const style = {
-        gap: props.grap ? `${props.gap}px` : '0'
+        gap: props.gap ? `${props.gap}px` : '0'
     }
     const col = props.col ? `grid-col-${props.col}` : ''
     const mdCol = props.mdCol ? `grid-col-md-${props.mdCol}` : ''
