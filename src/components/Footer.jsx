@@ -56,13 +56,13 @@ const Footer = () => {
                         </div>
                         <div className="footer__content">
                             <p>
-                                Liên hệ đặt hàng <strong>0123456789</strong>
+                                Liên hệ đặt hàng <strong>123213213</strong>
                             </p>
                             <p>
-                                Thắc mắc đơn hàng <strong>0123456789</strong>
+                                Thắc mắc đơn hàng <strong>132312</strong>
                             </p>
                             <p>
-                                Góp ý, khiếu nại <strong>0123456789</strong>
+                                Góp ý, khiếu nại <strong>3213</strong>
                             </p>
                         </div>
                     </div>
